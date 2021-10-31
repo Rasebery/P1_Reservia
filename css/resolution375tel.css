@@ -1,0 +1,111 @@
+@media (max-width: 375px) {
+    #footer {
+        flex-wrap: wrap;
+    }
+    .marseille1 {
+        flex: 46%;
+    }
+    #hebergements1 {
+        background-color: inherit;
+    }
+    #populaires {
+        background-color: #f2f2f2;
+    }
+    .marginb {
+        text-align: start;
+    }
+    .width {
+        margin-left: 0px;
+    }
+    .fontsizeinfo {
+        text-align: start;
+        width: 85%;
+    }
+    .grey {
+        text-align: start;
+    }
+    .info {
+        margin-left: 0px;
+    }
+    .border {
+        margin-left: 0px;
+        width: 250%;
+    }
+    .borderloca {
+        width: 8%;
+        padding: 15px;
+    }
+    #filtres {
+        margin-left: 0px;
+        width: 172%;
+    }
+    #filtres > .filtres1 {
+        width: 65%;
+    }
+    .filtres1 {
+        width: 177%;
+        margin-bottom: 15px;
+        margin-right: 15px;
+        font-size: 14px;
+    }
+    #footer {
+        border-radius: 0 0 0 0;
+    }
+    #flexact {
+        justify-content: inherit;
+    }
+    #flexact > div {
+        flex: 88% 0 0;
+        margin-bottom: 20px;
+    }
+    #flexact > .vertical {
+        flex: 88% 0 0;
+        margin-bottom: 20px;
+    }
+    .cadre2 {
+        width: 100%;
+    }
+    .cadre {
+        width: 100%;
+    }
+    #populaire {
+        border-radius: inherit;
+    }
+    #flexpop {
+        margin-bottom: 20px;
+    }
+    .headernav {
+        margin-left: -90px;
+        margin-top: 50px;
+        border-bottom: 2px solid #f2f2f2;
+    }
+    .nav {
+        font-size: 14px;
+        margin-left: -97px;
+    }
+    .logo {
+        margin-top: -43px;
+    }
+    .linkblack {
+        margin-right: 0px;
+    }
+    .link {
+        margin-left: 94px;
+    }
+    .header > img {
+        margin-top: -48px;
+    }
+    .view {
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #flexfiltres p {
+        margin-left: 0px;
+    }
+    .header2 a:hover {
+        border-bottom: 2px solid #0065FC;
+        border-top: transparent;
+    }
+
+}

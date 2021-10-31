@@ -1,0 +1,26 @@
+#footer {
+    margin-top: 50px;
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #DDE0E3;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.footer1 {
+    width: auto;
+    margin-right: 17%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+footer li {
+    list-style-type: none;
+}
+.link3 {
+    text-decoration: none;
+    color: #7F7F7F;
+}
+.marginf {
+    margin-bottom: 10%;
+}

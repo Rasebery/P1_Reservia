@@ -1,0 +1,64 @@
+@media (max-width: 768px) {
+    .header {
+        width: 40%;
+    }
+    #flexfiltres {
+        flex-wrap: wrap;
+    }
+    .grey {
+        text-align: center;
+    }
+    .marginb {
+        text-align: center;
+    }
+    #flexfiltres  {
+        width: 50%;
+    }
+    #filtres  {
+        width: 145%;
+        padding-left: 0px;
+        flex-wrap: wrap;
+        margin-left: 110px;
+    }
+    .filtres1  {
+        width: 40%;
+        margin-bottom: 15px;
+    }
+    .width  {
+        margin-left: 148px;
+    }
+    #flexfiltres p  {
+        margin-left: 49px;
+    }
+    .border  {
+        margin-left: 49px;
+        width: 110%;
+    }
+    #populaires  {
+        background-color: inherit;
+        padding: 0px;
+    }
+    .populaire1  {
+        margin-bottom: 25px;
+        flex: 90% 0 0;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #flexact  {
+        flex-wrap: wrap;
+    }
+    #flexact > div  {
+        flex: 47% 0 0;
+        margin-bottom: 20px;
+    }
+    #activity > h3  {
+        margin-left: 15px;
+    }
+    .mob {
+        flex-direction: row-reverse;
+    }
+    .tel {
+        width: 104%;
+    }
+
+}
