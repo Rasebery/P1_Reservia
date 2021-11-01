@@ -60,5 +60,8 @@
     .tel {
         width: 104%;
     }
+    .vertical img {
+        height: 90%;
+    }
 
 }
