@@ -10,7 +10,6 @@ body {
     background-color:#f2f2f2;
     border: 1px solid white;
     padding-left: 2%;
-    padding-right: 2%;
     padding-bottom: 2%;
     border-radius: 20px;
     margin-right: 23px;
@@ -36,10 +35,10 @@ a {
     text-decoration: none;
 }
 .margetxt1 {
-    margin-left: 5%;
+    margin-left: px;
 }
 .marginprix {
-    margin: 3% 0px 9px 3%;
+    margin: 9px 0px 9px 9px;
 }
 .fas[data-active="true"] {
     color: #0065FC;
@@ -48,8 +47,8 @@ a {
     color: #d9d9d9;
 }
 .marginstar {
-    margin-left: 3%;
-    margin-bottom: 3%;
+    margin-left: 9px;
+    margin-bottom: 9px;
     display: flex;
 }
 .view {
@@ -58,14 +57,15 @@ a {
 .viewmore {
     color: black;
     text-decoration: none;
-    margin-left: 3%;
+    margin-left: 9px;
+    margin-top: 20px;
 }
 .marseille1 {
     background-color: white;
     border: 1px solid white;
     border-radius: 20px;
-    margin-right: 2%;
-    margin-left: 2%;
+    margin-right: 30px;
+    margin-left: 4px;
     flex: 28%;
     box-shadow: 0 0 16px #0000002e;
 }
@@ -77,7 +77,7 @@ a {
 .imgmarseille {
     width: 96%;
     height: 105px;
-    padding: 2%;
+    padding: 4px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     object-fit: cover;
@@ -91,7 +91,7 @@ a {
     border-radius: 20px;
     margin-right: 20px;
     flex: 30%;
-    row-gap: 2rem;
+    row-gap: 20px;
 }
 #populaires figure {
     margin: 0;
@@ -103,9 +103,9 @@ a {
 }
 #populaires h2 {
     font-size: 100%;
-    margin-left: 3%;
-    margin-bottom: 2%;
-    margin-top: 3%;
+    margin-left: 9px;
+    margin-bottom: 9px;
+    margin-top: 9px;
 }
 #populaires P {
     font-size: 80%;
@@ -119,8 +119,8 @@ a {
     background-color: white;
     border: 1px solid white;
     border-radius: 20px;
-    margin-right: 6%;
-    margin-left: 6%;
+    margin-right: 12px;
+    margin-left: 12px;
     box-shadow: 0 0 16px #0000002e;
     height: 115px;
     padding: 1%;
@@ -129,7 +129,7 @@ a {
     width: 100%;
     height: 113px;
     object-fit: cover;
-    margin-right: 2%;
+    margin-right: 6px;
     border: 1px solid white;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -139,10 +139,10 @@ a {
     justify-content: space-between;
     width: 91%;
     align-items: center;
-    margin-right: 5%;
-    margin-left: 4%;
-    margin-bottom: 2%;
-    margin-top: 3%;
+    margin-right: 10px;
+    margin-left: 8px;
+    margin-bottom: 4px;
+    margin-top: 6px;
 }
 #flexpop {
     display: flex;
@@ -178,7 +178,7 @@ a {
 }
 .cadre2 {
     box-shadow: 0px 0px 16px #f2f2f2;
-    margin-bottom: 5%;
+    margin-bottom: 10px;
 }
 .imgactivitees {
     width: 100%;

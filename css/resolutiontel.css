@@ -5,6 +5,9 @@
     .marseille1 {
         flex: 46%;
     }
+    #hebergements {
+        display: flex;
+    }
     #hebergements1 {
         background-color: inherit;
     }
@@ -37,13 +40,11 @@
     }
     #filtres {
         margin-left: 0px;
-        width: 172%;
     }
     #filtres > .filtres1 {
         width: 65%;
     }
     .filtres1 {
-        width: 177%;
         margin-bottom: 15px;
         margin-right: 15px;
         font-size: 14px;
@@ -75,16 +76,10 @@
         margin-bottom: 20px;
     }
     .headernav {
-        margin-left: -90px;
-        margin-top: 50px;
         border-bottom: 2px solid #f2f2f2;
     }
     .nav {
         font-size: 14px;
-        margin-left: -97px;
-    }
-    .logo {
-        margin-top: -43px;
     }
     .linkblack {
         margin-right: 0px;
@@ -92,9 +87,6 @@
     .link {
         margin-left: 94px;
         }
-    }
-    .header > img {
-        margin-top: -48px;
     }
     .view {
         display: flex;
@@ -107,6 +99,9 @@
     .header2 a:hover {
         border-bottom: 2px solid #0065FC;
         border-top: transparent;
+    }
+    .headernav {
+        order: 2;
     }
     .vertical img {
         height: 83%;

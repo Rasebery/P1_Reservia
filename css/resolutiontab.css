@@ -15,7 +15,6 @@
         width: 50%;
     }
     #filtres  {
-        width: 145%;
         padding-left: 0px;
         flex-wrap: wrap;
         margin-left: 110px;
@@ -56,9 +55,6 @@
     }
     .mob {
         flex-direction: row-reverse;
-    }
-    .tel {
-        width: 104%;
     }
     .vertical img {
         height: 90%;
