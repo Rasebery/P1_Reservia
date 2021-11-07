@@ -1,12 +1,26 @@
 @media (max-width: 992px) {
-    #flexfiltres {
-        flex-wrap: wrap;
+
+/* nav - filtres */
+
+    .marginb {
+        text-align: center;
     }
     .grey {
         text-align: center;
     }
-    .marginb {
-        text-align: center;
+    .flex {
+        justify-content: center;
+    }
+    .border  {
+        display: flex;
+        width: auto;
+    }
+    .borderloca  {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    #flexfiltres {
+        flex-wrap: wrap;
     }
     #filtres  {
         padding-left: 0px;
@@ -16,41 +30,41 @@
     .filtres1  {
         margin-bottom: 15px;
     }
-    .width  {
-        margin-left: 148px;
-    }
     #flexfiltres p  {
         margin-left: 49px;
     }
+
+/* hébergements */
+
     #hebergements1  {
         flex: 100%;
     }
-    #flexpop  {
-        justify-content: center;
-        row-gap: 0px;
+/* populaires */
+
+    #populaires  {
+        background-color: inherit;
+        padding: 0px;
     }
     #flexchart  {
         justify-content: space-around;
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    .border  {
-        margin-left: 49px;
-        width: 110%;
-    }
-    .borderloca  {
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-    #populaires  {
-        background-color: inherit;
-        padding: 0px;
+    #flexpop  {
+        justify-content: center;
+        row-gap: 0px;
     }
     .populaires1  {
         margin-bottom: 25px;
         flex: 80% 0 0;
         margin-left: 0px;
         margin-right: 0px;
+    }
+
+/* activity */
+
+    #activity > h3  {
+        margin-left: 15px;
     }
     #flexact  {
         flex-wrap: wrap;
@@ -59,14 +73,22 @@
         flex: 47% 0 0;
         margin-bottom: 20px;
     }
-    #activity > h3  {
-        margin-left: 15px;
-    }
-    .mob {
-        flex-direction: row-reverse;
-    }
     .vertical img {
         height: 90%;
     }
+    .marginf > h4  {
+        width: max-content;
+    }
 
+/* footer */
+
+    #footer {
+        justify-content: space-around;
+    }
+    .footer1 {
+        margin-right: 0px;
+    }
+    .footer1 > ul {
+        padding: 0px;
+    }
 }

@@ -1,12 +1,12 @@
 html {
     font-family: 'Raleway', sans-serif; 
 }
-.nav {
-    display: flex;
-    list-style-type: none;
-    align-items: flex-end;
-    justify-content: space-evenly;
-    margin-top: 0;
+
+/* nav */
+
+.margin {
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .header {
     display: flex;
@@ -15,6 +15,13 @@ html {
 .marginhea {
     display: flex;
     justify-content: space-between;
+}
+.nav {
+    display: flex;
+    list-style-type: none;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    margin-top: 0;
 }
 .header2 {
     display: flex;
@@ -25,10 +32,20 @@ html {
 .header2 a:hover {
     border-top: 3px solid #0065FC;
 }
+.linkactivity {
+    display: block;
+}
 .link {
     text-decoration: none;
     color: #0065FC;
     margin-right: 33px;
+    padding-top: 20px;
+    border-top: 3px solid transparent;
+}
+.linkblack {
+    text-decoration: none;
+    color: #7F7F7F;
+    margin-right: 1%;
     padding-top: 20px;
     border-top: 3px solid transparent;
 }
@@ -38,33 +55,26 @@ html {
     padding-top: 20px;
     border-top: 3px solid transparent;
 }
-.link3 {
-    text-decoration: none;
-    color: black;
+
+/* filter */
+
+.marginb {
+    margin-bottom: -5px;
 }
-.tel {
+.grey {
+    color: #7F7F7F;
+    font-size: 80%;
+}
+.flex {
     display: flex;
 }
-.filtreani {
-    margin-right: 30px;
-    border: 1px solid #F2F2F2;
-    padding-right: 20px;
-    border-radius: 50px;
-    color: black;
-    list-style-type: none;
-}
-.linkblack {
-    text-decoration: none;
-    color: #7F7F7F;
-    margin-right: 1%;
-    padding-top: 20px;
-    border-top: 3px solid transparent;
-}
-.linkactivity {
-    display: block;
-}
-.localisation {
-    background-color: #F2F2F2;
+.border {
+    border: 1px solid #f2f2f2;
+    border-radius: 12px;
+    border-right-color: white;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
 }
 .borderloca {
     border: 1px solid #f2f2f2;
@@ -73,36 +83,37 @@ html {
     width: 14%;
     text-align: center;
     padding: 8px;
-}
-.border {
-    border: 1px solid #f2f2f2;
-    WIDTH: 57%;
-    border-radius: 12px;
-    border-right-color: white;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    display: flex;
+    padding-left: 13px;
+    padding-right: 13px;
 }
 .localisation {
     background-color: #F2F2F2;
 }
-.marginb {
-    margin-bottom: -5px;
+.recherche {
+    border: none;
+    padding-left: 4%;
+    padding-right: 4%;
 }
-.margin {
-    margin-left: 2%;
-    margin-right: 2%;
-}
-#filtres {
-    display: flex;
-}
-.filtres1:hover {
-    background-color: #DEEBFF;
+.boutton {
+    background-color: #0065FC;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 9px;
+    padding-right: 18PX;
+    padding-left: 14PX;
+    border-color: #0065FC;
 }
 #flexfiltres {
     display: flex;
     align-items: center;
     margin-top: 1%;
+}
+#filtres {
+    display: flex;
+}
+.tel {
+    display: flex;
 }
 .filtres1 {
     margin-right: 30px;
@@ -111,6 +122,13 @@ html {
     border-radius: 50px;
     color: black;
     list-style-type: none;
+}
+.filtres1:hover {
+    background-color: #DEEBFF;
+}
+.link3 {
+    text-decoration: none;
+    color: black;
 }
 .fa-money-bill-wave {
     color: #0065FC;
@@ -144,6 +162,9 @@ html {
     border-radius: 100%;
     margin-right: 5px;
 }
+
+/* info */
+
 .info {
     display: flex;
     margin-bottom: 20px;
@@ -161,32 +182,10 @@ html {
     margin-right: 10px;
     margin-top: 12px;
 }
-.fontsizeinfo {
-    font-size: 84%;
-    margin-top: 17px;
-}
-.grey {
-    color: #7F7F7F;
-    font-size: 80%;
-}
-.width {
-    width: 40%;
-}
 .logoinfo {
     color: blue;
 }
-.recherche {
-    border: none;
-    padding-left: 4%;
-    padding-right: 4%;
-}
-.boutton {
-    background-color: #0065FC;
-    color: white;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding: 9px;
-    padding-right: 18PX;
-    padding-left: 14PX;
-    border-color: #0065FC;
+.fontsizeinfo {
+    font-size: 84%;
+    margin-top: 17px;
 }
