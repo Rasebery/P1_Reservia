@@ -8,28 +8,48 @@ html {
     margin-left: 2%;
     margin-right: 2%;
 }
+.marginhea {
+    display: flex;
+    justify-content: space-between;
+}
+.flexnav {
+    display: flex;
+}
 .header {
     display: flex;
     justify-content: space-between;
 }
-.marginhea {
+.grid {
     display: flex;
-    justify-content: space-between;
 }
 .nav {
     display: flex;
     list-style-type: none;
     align-items: flex-end;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     margin-top: 0;
+    padding-left: 0px;
+}
+.nav2 {
+    display: flex;
+    list-style-type: none;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 0;
+    padding: 0px;
 }
 .header2 {
     display: flex;
-    justify-content: space-between;
-    margin-right: 50px;
     color: #F2F2F2;
 }
 .header2 a:hover {
+    border-top: 3px solid #0065FC;
+}
+.header3 {
+    display: flex;
+    color: #F2F2F2;
+}
+.header3 a:hover {
     border-top: 3px solid #0065FC;
 }
 .linkactivity {
@@ -38,7 +58,6 @@ html {
 .link {
     text-decoration: none;
     color: #0065FC;
-    margin-right: 33px;
     padding-top: 20px;
     border-top: 3px solid transparent;
 }
