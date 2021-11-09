@@ -94,8 +94,20 @@
     #filtres {
         justify-content: flex-start;
     }
+    .tel {
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+    .tel2 {
+        padding: 0px;
+        flex-direction: column;
+    }
     .filtres1 {
         margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    .filtres2 {
+        margin-bottom: 17px;
     }
     .marginr {
         margin-right: 34px;
