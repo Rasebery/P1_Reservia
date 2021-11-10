@@ -1,5 +1,10 @@
+/* Pages */
+
 html {
     font-family: 'Raleway', sans-serif; 
+}
+body {
+    margin-top: 0;
 }
 
 /* nav */
@@ -20,6 +25,9 @@ html {
     justify-content: space-between;
 }
 .grid {
+    display: flex;
+}
+.flexlink {
     display: flex;
 }
 .nav {
@@ -60,6 +68,7 @@ html {
     color: #0065FC;
     padding-top: 20px;
     border-top: 3px solid transparent;
+    margin-right: 40px;
 }
 .linkblack {
     text-decoration: none;
@@ -67,6 +76,7 @@ html {
     margin-right: 1%;
     padding-top: 20px;
     border-top: 3px solid transparent;
+    margin-right: 40px;
 }
 .link2 {
     text-decoration: none;
@@ -155,6 +165,9 @@ html {
     list-style-type: none;
 }
 .filtres1:hover {
+    background-color: #DEEBFF;
+}
+.filtres2:hover {
     background-color: #DEEBFF;
 }
 .link3 {

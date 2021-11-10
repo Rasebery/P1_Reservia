@@ -27,8 +27,17 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-    .filtres1  {
-        margin-bottom: 15px;
+    .tel {
+        padding: 0px;
+        margin-right: 19%;
+    }
+    .filtres1 {
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 23px;
+    }
+    .filtres2 {
+        margin-bottom: 17px;
     }
     #flexfiltres p  {
         margin-left: 49px;

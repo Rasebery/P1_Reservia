@@ -30,8 +30,12 @@
     .header2 {
         margin-right: 0px;
     }
+    .order2:hover, .order3:hover {
+        border-top: 0px solid #0065FC;
+        border-bottom: 2px solid #0065FC;
+    }
     .header2 a:hover {
-        border-top: 0 solid #0065FC;
+        border-top: 0px solid #0065FC;
     }
     .link {
         margin-right: 0px;
@@ -46,6 +50,9 @@
         margin-right: 0px;
         padding-top: 18px;
         margin-left: 15px;
+    }
+    .flexlink {
+        display: contents;
     }
     .order {
         grid-column-start: 1;
@@ -96,21 +103,20 @@
     }
     .tel {
         padding: 0px;
-        margin-bottom: 0px;
-    }
-    .tel2 {
-        padding: 0px;
-        flex-direction: column;
+        margin: 0px;
+        display: flex;
+        flex-wrap: wrap;
     }
     .filtres1 {
         margin-right: 0px;
         margin-bottom: 0px;
     }
+    .marginr {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
     .filtres2 {
         margin-bottom: 17px;
-    }
-    .marginr {
-        margin-right: 34px;
     }
     #flexfiltres p {
         margin-left: 0px;
@@ -135,9 +141,11 @@
         background-color: inherit;
         order: 2;
         padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .marseille1 {
-        flex: 46%;
+        flex: 47%;
         margin: 6px;
     }
     .view {
@@ -159,6 +167,9 @@
     #flexchart {
         justify-content: space-between;
     }
+    .populaires1 {
+        flex: 92% 0 0;
+    }
     #flexpop {
         margin-bottom: 20px;
     }
@@ -168,11 +179,8 @@
     #activity {
         order: 3;
     }
-    #flexact {
-        justify-content: inherit;
-    }
     #flexact > div {
-        flex: 88% 0 0;
+        flex: 94% 0 0;
         margin-bottom: 20px;
     }
     #flexact > .vertical {
@@ -184,9 +192,11 @@
     }
     .cadre2 {
         width: 100%;
+        margin-left: 6px;
     }
     .cadre {
         width: 100%;
+        margin-left: 6px;
     }
 
 /* footer */
