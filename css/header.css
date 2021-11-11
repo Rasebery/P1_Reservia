@@ -133,6 +133,25 @@ body {
     padding-left: 14PX;
     border-color: #0065FC;
 }
+.boutton2 {
+    background-color: #0065FC;
+    color: white;
+    border-radius: 10px;
+    padding: 1px;
+    border-color: #0065FC;
+    display: none;
+}
+.fa-search {
+    background-color: #0065FC;
+    color: white;
+    border-radius: 10px;
+    padding: 9px;
+    padding-top: 16px;
+    padding-right: 18PX;
+    padding-left: 14PX;
+    border-color: #0065FC;
+    display: none;
+}
 #flexfiltres {
     display: flex;
     align-items: center;

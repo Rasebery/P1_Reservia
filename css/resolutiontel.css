@@ -98,6 +98,15 @@
         padding-right: 17px;
         padding-left: 17px;
     }
+    .boutton {
+        display: none;
+    }
+    .boutton2 {
+        display: flex;
+    }
+    .fa-search {
+        display: initial;
+    }
     #filtres {
         justify-content: flex-start;
     }
@@ -109,7 +118,7 @@
     }
     .filtres1 {
         margin-right: 0px;
-        margin-bottom: 0px;
+        margin-bottom: 17px;
     }
     .marginr {
         margin-right: 0px;
